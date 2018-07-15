@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E41A79D20FAE4CB004DA29F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41A79C20FAE4CB004DA29F /* AppDelegate.swift */; };
+		3E41A79F20FAE4CB004DA29F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41A79E20FAE4CB004DA29F /* ViewController.swift */; };
+		3E41A7A220FAE4CB004DA29F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41A7A020FAE4CB004DA29F /* Main.storyboard */; };
+		3E41A7A520FAE4CB004DA29F /* TapMeFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E41A7A320FAE4CB004DA29F /* TapMeFast.xcdatamodeld */; };
+		3E41A7A720FAE4CC004DA29F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E41A7A620FAE4CC004DA29F /* Assets.xcassets */; };
+		3E41A7AA20FAE4CC004DA29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41A7A820FAE4CC004DA29F /* LaunchScreen.storyboard */; };
+		3E41A7B520FAE4CC004DA29F /* TapMeFastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41A7B420FAE4CC004DA29F /* TapMeFastTests.swift */; };
+		3E41A7C020FAE4CC004DA29F /* TapMeFastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41A7BF20FAE4CC004DA29F /* TapMeFastUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E41A7B120FAE4CC004DA29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E41A79120FAE4CB004DA29F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E41A79820FAE4CB004DA29F;
+			remoteInfo = TapMeFast;
+		};
+		3E41A7BC20FAE4CC004DA29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E41A79120FAE4CB004DA29F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E41A79820FAE4CB004DA29F;
+			remoteInfo = TapMeFast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E41A79920FAE4CB004DA29F /* TapMeFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMeFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E41A79C20FAE4CB004DA29F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E41A79E20FAE4CB004DA29F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E41A7A120FAE4CB004DA29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E41A7A420FAE4CB004DA29F /* TapMeFast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TapMeFast.xcdatamodel; sourceTree = "<group>"; };
+		3E41A7A620FAE4CC004DA29F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E41A7A920FAE4CC004DA29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E41A7AB20FAE4CC004DA29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E41A7B020FAE4CC004DA29F /* TapMeFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMeFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E41A7B420FAE4CC004DA29F /* TapMeFastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeFastTests.swift; sourceTree = "<group>"; };
+		3E41A7B620FAE4CC004DA29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E41A7BB20FAE4CC004DA29F /* TapMeFastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMeFastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E41A7BF20FAE4CC004DA29F /* TapMeFastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeFastUITests.swift; sourceTree = "<group>"; };
+		3E41A7C120FAE4CD004DA29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E41A79620FAE4CB004DA29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E41A7AD20FAE4CC004DA29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E41A7B820FAE4CC004DA29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E41A79020FAE4CB004DA29F = {
+			isa = PBXGroup;
+			children = (
+				3E41A79B20FAE4CB004DA29F /* TapMeFast */,
+				3E41A7B320FAE4CC004DA29F /* TapMeFastTests */,
+				3E41A7BE20FAE4CC004DA29F /* TapMeFastUITests */,
+				3E41A79A20FAE4CB004DA29F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E41A79A20FAE4CB004DA29F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E41A79920FAE4CB004DA29F /* TapMeFast.app */,
+				3E41A7B020FAE4CC004DA29F /* TapMeFastTests.xctest */,
+				3E41A7BB20FAE4CC004DA29F /* TapMeFastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E41A79B20FAE4CB004DA29F /* TapMeFast */ = {
+			isa = PBXGroup;
+			children = (
+				3E41A79C20FAE4CB004DA29F /* AppDelegate.swift */,
+				3E41A79E20FAE4CB004DA29F /* ViewController.swift */,
+				3E41A7A020FAE4CB004DA29F /* Main.storyboard */,
+				3E41A7A620FAE4CC004DA29F /* Assets.xcassets */,
+				3E41A7A820FAE4CC004DA29F /* LaunchScreen.storyboard */,
+				3E41A7AB20FAE4CC004DA29F /* Info.plist */,
+				3E41A7A320FAE4CB004DA29F /* TapMeFast.xcdatamodeld */,
+			);
+			path = TapMeFast;
+			sourceTree = "<group>";
+		};
+		3E41A7B320FAE4CC004DA29F /* TapMeFastTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E41A7B420FAE4CC004DA29F /* TapMeFastTests.swift */,
+				3E41A7B620FAE4CC004DA29F /* Info.plist */,
+			);
+			path = TapMeFastTests;
+			sourceTree = "<group>";
+		};
+		3E41A7BE20FAE4CC004DA29F /* TapMeFastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E41A7BF20FAE4CC004DA29F /* TapMeFastUITests.swift */,
+				3E41A7C120FAE4CD004DA29F /* Info.plist */,
+			);
+			path = TapMeFastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E41A79820FAE4CB004DA29F /* TapMeFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E41A7C420FAE4CD004DA29F /* Build configuration list for PBXNativeTarget "TapMeFast" */;
+			buildPhases = (
+				3E41A79520FAE4CB004DA29F /* Sources */,
+				3E41A79620FAE4CB004DA29F /* Frameworks */,
+				3E41A79720FAE4CB004DA29F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapMeFast;
+			productName = TapMeFast;
+			productReference = 3E41A79920FAE4CB004DA29F /* TapMeFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E41A7AF20FAE4CC004DA29F /* TapMeFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E41A7C720FAE4CD004DA29F /* Build configuration list for PBXNativeTarget "TapMeFastTests" */;
+			buildPhases = (
+				3E41A7AC20FAE4CC004DA29F /* Sources */,
+				3E41A7AD20FAE4CC004DA29F /* Frameworks */,
+				3E41A7AE20FAE4CC004DA29F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E41A7B220FAE4CC004DA29F /* PBXTargetDependency */,
+			);
+			name = TapMeFastTests;
+			productName = TapMeFastTests;
+			productReference = 3E41A7B020FAE4CC004DA29F /* TapMeFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E41A7BA20FAE4CC004DA29F /* TapMeFastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E41A7CA20FAE4CD004DA29F /* Build configuration list for PBXNativeTarget "TapMeFastUITests" */;
+			buildPhases = (
+				3E41A7B720FAE4CC004DA29F /* Sources */,
+				3E41A7B820FAE4CC004DA29F /* Frameworks */,
+				3E41A7B920FAE4CC004DA29F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E41A7BD20FAE4CC004DA29F /* PBXTargetDependency */,
+			);
+			name = TapMeFastUITests;
+			productName = TapMeFastUITests;
+			productReference = 3E41A7BB20FAE4CC004DA29F /* TapMeFastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E41A79120FAE4CB004DA29F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kunal Mehta";
+				TargetAttributes = {
+					3E41A79820FAE4CB004DA29F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3E41A7AF20FAE4CC004DA29F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3E41A79820FAE4CB004DA29F;
+					};
+					3E41A7BA20FAE4CC004DA29F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3E41A79820FAE4CB004DA29F;
+					};
+				};
+			};
+			buildConfigurationList = 3E41A79420FAE4CB004DA29F /* Build configuration list for PBXProject "TapMeFast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E41A79020FAE4CB004DA29F;
+			productRefGroup = 3E41A79A20FAE4CB004DA29F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E41A79820FAE4CB004DA29F /* TapMeFast */,
+				3E41A7AF20FAE4CC004DA29F /* TapMeFastTests */,
+				3E41A7BA20FAE4CC004DA29F /* TapMeFastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E41A79720FAE4CB004DA29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E41A7AA20FAE4CC004DA29F /* LaunchScreen.storyboard in Resources */,
+				3E41A7A720FAE4CC004DA29F /* Assets.xcassets in Resources */,
+				3E41A7A220FAE4CB004DA29F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E41A7AE20FAE4CC004DA29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E41A7B920FAE4CC004DA29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E41A79520FAE4CB004DA29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E41A79F20FAE4CB004DA29F /* ViewController.swift in Sources */,
+				3E41A79D20FAE4CB004DA29F /* AppDelegate.swift in Sources */,
+				3E41A7A520FAE4CB004DA29F /* TapMeFast.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E41A7AC20FAE4CC004DA29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E41A7B520FAE4CC004DA29F /* TapMeFastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E41A7B720FAE4CC004DA29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E41A7C020FAE4CC004DA29F /* TapMeFastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E41A7B220FAE4CC004DA29F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E41A79820FAE4CB004DA29F /* TapMeFast */;
+			targetProxy = 3E41A7B120FAE4CC004DA29F /* PBXContainerItemProxy */;
+		};
+		3E41A7BD20FAE4CC004DA29F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E41A79820FAE4CB004DA29F /* TapMeFast */;
+			targetProxy = 3E41A7BC20FAE4CC004DA29F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E41A7A020FAE4CB004DA29F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E41A7A120FAE4CB004DA29F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E41A7A820FAE4CC004DA29F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E41A7A920FAE4CC004DA29F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E41A7C220FAE4CD004DA29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E41A7C320FAE4CD004DA29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E41A7C520FAE4CD004DA29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 798PVU74K8;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal-Mehta.TapMeFast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E41A7C620FAE4CD004DA29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 798PVU74K8;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal-Mehta.TapMeFast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E41A7C820FAE4CD004DA29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 798PVU74K8;
+				INFOPLIST_FILE = TapMeFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal-Mehta.TapMeFastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMeFast.app/TapMeFast";
+			};
+			name = Debug;
+		};
+		3E41A7C920FAE4CD004DA29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 798PVU74K8;
+				INFOPLIST_FILE = TapMeFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal-Mehta.TapMeFastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMeFast.app/TapMeFast";
+			};
+			name = Release;
+		};
+		3E41A7CB20FAE4CD004DA29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 798PVU74K8;
+				INFOPLIST_FILE = TapMeFastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal-Mehta.TapMeFastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapMeFast;
+			};
+			name = Debug;
+		};
+		3E41A7CC20FAE4CD004DA29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 798PVU74K8;
+				INFOPLIST_FILE = TapMeFastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal-Mehta.TapMeFastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapMeFast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E41A79420FAE4CB004DA29F /* Build configuration list for PBXProject "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E41A7C220FAE4CD004DA29F /* Debug */,
+				3E41A7C320FAE4CD004DA29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E41A7C420FAE4CD004DA29F /* Build configuration list for PBXNativeTarget "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E41A7C520FAE4CD004DA29F /* Debug */,
+				3E41A7C620FAE4CD004DA29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E41A7C720FAE4CD004DA29F /* Build configuration list for PBXNativeTarget "TapMeFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E41A7C820FAE4CD004DA29F /* Debug */,
+				3E41A7C920FAE4CD004DA29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E41A7CA20FAE4CD004DA29F /* Build configuration list for PBXNativeTarget "TapMeFastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E41A7CB20FAE4CD004DA29F /* Debug */,
+				3E41A7CC20FAE4CD004DA29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E41A7A320FAE4CB004DA29F /* TapMeFast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E41A7A420FAE4CB004DA29F /* TapMeFast.xcdatamodel */,
+			);
+			currentVersion = 3E41A7A420FAE4CB004DA29F /* TapMeFast.xcdatamodel */;
+			path = TapMeFast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E41A79120FAE4CB004DA29F /* Project object */;
+}
