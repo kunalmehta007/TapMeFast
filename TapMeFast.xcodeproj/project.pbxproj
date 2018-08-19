@@ -15,6 +15,9 @@
 		3E41A7AA20FAE4CC004DA29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41A7A820FAE4CC004DA29F /* LaunchScreen.storyboard */; };
 		3E41A7B520FAE4CC004DA29F /* TapMeFastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41A7B420FAE4CC004DA29F /* TapMeFastTests.swift */; };
 		3E41A7C020FAE4CC004DA29F /* TapMeFastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41A7BF20FAE4CC004DA29F /* TapMeFastUITests.swift */; };
+		3E41A7CE20FAE54A004DA29F /* ObelixProB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E41A7CD20FAE54A004DA29F /* ObelixProB.ttf */; };
+		3E41A7CF20FAE54A004DA29F /* ObelixProB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E41A7CD20FAE54A004DA29F /* ObelixProB.ttf */; };
+		3E41A7D020FAE54A004DA29F /* ObelixProB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E41A7CD20FAE54A004DA29F /* ObelixProB.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		3E41A7BB20FAE4CC004DA29F /* TapMeFastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMeFastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E41A7BF20FAE4CC004DA29F /* TapMeFastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeFastUITests.swift; sourceTree = "<group>"; };
 		3E41A7C120FAE4CD004DA29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E41A7CD20FAE54A004DA29F /* ObelixProB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ObelixProB.ttf; path = "../../Tap Me Fast Resources/ObelixProB.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				3E41A7A620FAE4CC004DA29F /* Assets.xcassets */,
 				3E41A7A820FAE4CC004DA29F /* LaunchScreen.storyboard */,
 				3E41A7AB20FAE4CC004DA29F /* Info.plist */,
+				3E41A7CD20FAE54A004DA29F /* ObelixProB.ttf */,
 				3E41A7A320FAE4CB004DA29F /* TapMeFast.xcdatamodeld */,
 			);
 			path = TapMeFast;
@@ -232,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E41A7CE20FAE54A004DA29F /* ObelixProB.ttf in Resources */,
 				3E41A7AA20FAE4CC004DA29F /* LaunchScreen.storyboard in Resources */,
 				3E41A7A720FAE4CC004DA29F /* Assets.xcassets in Resources */,
 				3E41A7A220FAE4CB004DA29F /* Main.storyboard in Resources */,
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E41A7CF20FAE54A004DA29F /* ObelixProB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E41A7D020FAE54A004DA29F /* ObelixProB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
